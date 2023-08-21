@@ -1,0 +1,560 @@
+/* Add CSS here */
+.body-container {
+    background-color: #073f40;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 695px;
+    max-width: 1100px;
+    background-color: #03151a;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.theme {
+    position: relative;
+    display: flex;
+    width: 70%;
+    padding: 30px;
+    justify-content: space-between;
+    margin-left: 240px;
+    color: gray;
+}
+
+.comp h1 {
+    font-size: 14px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comp h1:hover {
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #073f40;
+    padding: 2px;
+    width: 120%;
+    display: flex;
+    color: #119388;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    border-radius: 0.5em;
+}
+
+.comp p {
+    font-size: 12px;
+}
+
+.comp p:hover {
+    font-size: 12px;
+    color: #16b5a6;
+}
+
+.list-1 {
+    position: absolute;
+    display: flex;
+    width: 20%;
+    height: 500px;
+    padding: 30px;
+    flex-direction: column;
+    border: none;
+    gap: 17px;
+    color: transparent;
+}
+
+.outline h2 {
+    color: gray;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.outline h3 {
+    color: gray;
+    font-size: 12px;
+}
+
+.outline:hover {
+    background-color: #073f40;
+    margin-left: -50px;
+    display: flex;
+    width: 130%;
+    transition: 0.7s;
+    border-radius: 0.3em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.outline h2:hover {
+    font-size: 14px;
+    color: #16b5a6;
+}
+
+.latest-movies {
+    height: 500px;
+    width: 85%;
+    margin-left: 120px;
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    overflow-x: scroll;
+}
+
+.latest-movies::-webkit-scrollbar {
+    display: none;
+}
+
+.latest-movies-1 {
+    height: 600px;
+    width: 85%;
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    overflow-x: scroll;
+}
+
+.latest-movies-1::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+    width: 102%;
+    height: 180px;
+    background-color: white;
+}
+
+.series {
+    margin-top: -10px;
+    width: 102%;
+    height: 60px;
+}
+
+.series h4 {
+    font-size: 14;
+    font-weight: 700;
+    color: white;
+}
+
+.image-1 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-2 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-3 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-4 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-5 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-6 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-7 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-8 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-9 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-10 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-11 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-12 {
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+}
+
+.series h5 {
+    font-size: 10px;
+    color: white;
+}
+
+.resume {
+    background-color: gray;
+    width: 100%;
+    height: 3px;
+}
+
+.sume {
+    margin-top: 5px;
+    background-color: aqua;
+    width: 70%;
+    height: 5px;
+}
+
+.content-1 {
+    width: 102%;
+    margin-top: -8px;
+    height: 180px;
+    background-color: white;
+}
+
+.series-1 {
+    margin-top: -10px;
+    width: 102%;
+    height: 60px;
+    /* background-color:blue; */
+}
+
+.series-1 h4 {
+    font-size: 14;
+    font-weight: 700;
+    color: white;
+}
+
+.series-1 h5 {
+    font-size: 10px;
+    color: white;
+}
+
+.closet {
+    height: 600px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.container h8 {
+    margin-left: 130px;
+    margin-top: 10px;
+    color: aqua;
+}
+
+
+@media screen and (max-width:600px) {
+    .body-container {
+        background-color: #073f40;
+        font-family: 'poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .container {
+        height: 695px;
+        max-width: 95%;
+        background-color: #03151a;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    .container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .theme {
+        position: relative;
+        display: flex;
+        width: 85%;
+        padding: 30px;
+        justify-content: space-between;
+        margin-left: 90px;
+        color: gray;
+    }
+
+    .comp h1 {
+        font-size: 8px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .comp h1:hover {
+        font-size: 8px;
+        font-weight: 800;
+        background-color: #073f40;
+        padding: 2px;
+        width: 120%;
+        display: flex;
+        color: #119388;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+        border-radius: 0.5em;
+    }
+
+    .comp p {
+        font-size: 6px;
+    }
+
+    .comp p:hover {
+        font-size: 6px;
+        color: #16b5a6;
+    }
+
+    .list-1 {
+        position: absolute;
+        display: flex;
+        width: 40%;
+        height: 500px;
+        padding: 30px;
+        flex-direction: column;
+        border: none;
+        gap: 17px;
+        color: transparent;
+    }
+
+    .outline h2 {
+        color: gray;
+        font-size: 10px;
+        font-weight: 800;
+    }
+
+    .outline h3 {
+        color: gray;
+        font-size: 7px;
+    }
+
+    .outline:hover {
+        background-color: #073f40;
+        margin-left: -50px;
+        display: flex;
+        width: 130%;
+        transition: 0.7s;
+        border-radius: 0.3em;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .outline h2:hover {
+        font-size: 14px;
+        color: #16b5a6;
+    }
+
+    .latest-movies {
+        height: 500px;
+        width: 70%;
+        margin-left: 120px;
+        display: grid;
+        padding: 10px;
+        gap: 10px;
+        grid-template-columns: auto auto auto;
+        overflow-x: scroll;
+    }
+
+    .latest-movies::-webkit-scrollbar {
+        display: none;
+    }
+
+    .latest-movies-1 {
+        height: 600px;
+        width: 85%;
+        display: grid;
+        padding: 10px;
+        gap: 10px;
+        grid-template-columns: auto auto auto;
+        overflow-x: scroll;
+    }
+
+    .latest-movies-1::-webkit-scrollbar {
+        display: none;
+    }
+
+    .content {
+        width: 102%;
+        height: 80px;
+        background-color: white;
+    }
+
+    .series {
+        margin-top: 10px;
+        width: 102%;
+        height: 60px;
+    }
+
+    .series h4 {
+        font-size: 8px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .image-1 {
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .image-2 {
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .image-3 {
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .image-4 {
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .image-5 {
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .image-6 {
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .image-7 {
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .image-8 {
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .image-9 {
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .image-10 {
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .image-11 {
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .image-12 {
+        height: 100px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .series h5 {
+        font-size: 5px;
+        color: white;
+    }
+
+    .resume {
+        background-color: gray;
+        width: 100%;
+        height: 2px;
+    }
+
+    .sume {
+        margin-top: 5px;
+        background-color: aqua;
+        width: 70%;
+        height: 2.5px;
+    }
+
+    .content-1 {
+        width: 102%;
+        margin-top: -8px;
+        height: 80px;
+        background-color: white;
+    }
+
+    .series-1 {
+        margin-top: 10px;
+        width: 102%;
+        height: 60px;
+    }
+
+    .series-1 h4 {
+        font-size: 6px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .series-1 h5 {
+        font-size: 5px;
+        color: white;
+    }
+
+    .closet {
+        height: 600px;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+
+    .container h8 {
+        margin-left: 130px;
+        margin-top: 10px;
+        color: aqua;
+    }
+}
